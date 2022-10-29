@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digimons</title>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <img src="digimonlogo.png" alt="logo">
+        <h1>DigiInfo</h1>
+        <img src="Veemon1.webp" alt="digimon" class="digimon">
+    </header>
+
+<main>
+    <div class="caixa">
+        <label for="nivelDigimon">Selecione o nivel do Digimon que você deseja</label>
+        <select name="" id="nivelDigimon">
+            <option value="fresh">Bebê</option>
+            <option value="InTraining">Bebê Nivel 2</option>
+            <option value="rookie">Criança</option>
+            <option value="champion">Adulto</option>
+            <option value="mega">Perfeito</option>
+            <option value="ultimate">Ultimate</option>
+        </select>
+        <input type="button" value="Confirmar" id="confirmar" onclick="confirmar()">
+    </div>
+    <div id="resultado">
+
+    </div>
+</main>
+    <script src="script.js"></script>
+</body>
+
+</html>

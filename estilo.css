@@ -1,0 +1,77 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10vw;
+    height: 15vh;
+    background-color: rgba(245, 119, 8, 0.764);
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: white;
+    font-size: 3vw;
+    font-family: 'Roboto Mono', monospace;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke: black;
+}
+
+.digimon {
+    width: 7vw;
+}
+
+body {
+    background-color: rgb(248, 208, 159);
+}
+
+img {
+    width: 13vw;
+}
+
+select {
+    height: 3.5vh;
+    margin-left: 20px;
+    margin-right: 6px;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+label {
+    margin-left: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+}
+
+#confirmar {
+    height: 3.5vh;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.caixa {
+    display: flex;
+    /* align-items: center; */
+    padding-left: 0.5vw;
+    margin-left: 10px;
+    height: 22vh;
+    width: 41vw;
+    padding-top: 10px;
+    background-color: rgba(95, 158, 241, 0.607);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#resultado {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 40vw;
+    padding: 10px;
+}
