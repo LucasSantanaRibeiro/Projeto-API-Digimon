@@ -8,6 +8,12 @@ header {
     margin-bottom: 25px;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+
+}
+
 h1 {
     color: white;
     font-size: 3vw;
@@ -42,6 +48,7 @@ label {
     margin-left: 5px;
     margin-top: 7px;
     font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #confirmar {
@@ -52,14 +59,15 @@ label {
 
 .caixa {
     display: flex;
-    /* align-items: center; */
     padding-left: 0.5vw;
-    margin-left: 10px;
-    height: 22vh;
+    margin-right: 10px;
+    height: 23vh;
     width: 41vw;
     padding-top: 10px;
     background-color: rgba(95, 158, 241, 0.607);
     border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -67,11 +75,11 @@ label {
     display: flex;
     justify-content: space-between;
     background-color: white;
-    margin-top: 10px;
     border-style: solid;
     border-width: 2px;
-    margin-left: 10px;
     border-radius: 10px;
     width: 40vw;
+    height: 22vh;
     padding: 10px;
+    margin-left: 10px;
 }
