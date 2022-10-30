@@ -50,9 +50,17 @@ label {
     margin-top: 7px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 #confirmar {
+    cursor: pointer;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: lightslategray;
     height: 3.5vh;
     margin-left: 10px;
     font-size: 17px;
@@ -61,13 +69,14 @@ label {
 .caixa {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     padding-left: 0.5vw;
     margin-right: 10px;
     height: 23vh;
-    width: 41vw;
+    width: 36vw;
+    margin-bottom: 10px;
     padding-top: 10px;
     background-color: rgba(95, 158, 241, 0.607);
     border-radius: 10px;
@@ -80,7 +89,7 @@ label {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: white;
     border-style: solid;
@@ -89,5 +98,15 @@ label {
     width: 41vw;
     height: 50vh;
     padding: 10px;
-    margin-left: 10px;
+}
+
+.imagemDigimon {
+    height: 40vh;
+    width: 35vw;
+}
+
+.nome {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
 }

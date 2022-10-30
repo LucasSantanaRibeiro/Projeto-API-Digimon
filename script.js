@@ -12,16 +12,21 @@ async function confirmar() {
 
     resultado.innerHTML = "";
 
-    var p = document.createElement("p")
-    p.innerText = digimonAleatorio.name
-    resultado.append(p)
+    var nome = document.createElement("p")
+    nome.innerText = digimonAleatorio.name
+    resultado.append(nome)
+    nome.classList.add("nome")
 
-    var teste = digimonAleatorio.img
+    var imagem = digimonAleatorio.img
     var img = document.createElement("img")
-    img.src = teste
+    img.src = imagem
     resultado.append(img)
+    img.classList.add("imagemDigimon")
 
-    resultado.append(digimonAleatorio.level)
+   /*  var level = document.createElement("p")
+    level.innerText = digimonAleatorio.level
+    resultado.append(level)
+    level.classList.add("paragrafo") */
 }
 
 
