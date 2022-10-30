@@ -3,27 +3,25 @@ async function confirmar() {
     var API = `https://digimon-api.herokuapp.com/api/digimon/level/${nivel}`
 
 
-
     var response = await fetch(API)
     var BodyJson = await response.json()
-    var primeiro = BodyJson[0]
-
-    console.log(primeiro)
+    var numeroRandom = Math.floor(Math.random() * BodyJson.length)
+    var digimonAleatorio = BodyJson[numeroRandom]
 
     var resultado = document.getElementById("resultado")
 
     resultado.innerHTML = "";
 
     var p = document.createElement("p")
-    p.innerText = primeiro.name
+    p.innerText = digimonAleatorio.name
     resultado.append(p)
 
-    var teste = primeiro.img
+    var teste = digimonAleatorio.img
     var img = document.createElement("img")
     img.src = teste
     resultado.append(img)
 
-    resultado.append(primeiro.level)
+    resultado.append(digimonAleatorio.level)
 }
 
 
