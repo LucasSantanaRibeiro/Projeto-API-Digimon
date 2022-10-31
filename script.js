@@ -49,7 +49,7 @@ async function digiAleatorio() {
     img.classList.add("imagemDigimon")
 
     var level = document.createElement("p")
-    level.innerText = digimonAleatorio.level
+    level.innerText = `Level: ${digimonAleatorio.level}`
     resultado.append(level)
     level.classList.add("nomeElevel")
 }
