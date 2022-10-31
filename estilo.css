@@ -5,7 +5,7 @@ header {
     padding-inline: 10vw;
     height: 15vh;
     background-color: rgba(245, 119, 8, 0.764);
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 main {
@@ -35,8 +35,6 @@ img {
 
 select {
     height: 3.5vh;
-    margin-left: 20px;
-    margin-right: 6px;
     background-color: white;
     border-style: solid;
     border-width: 1px;
@@ -44,27 +42,25 @@ select {
 }
 
 label {
-    margin-left: 5px;
-    margin-top: 7px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 
-#confirmar {
+.botoes {
     cursor: pointer;
     color: white;
     border: 0px;
     border-radius: 5px;
+    margin-top: 10px;
     font-size: 20px;
     font-weight: 700;
     background-color: lightslategray;
     height: 3.5vh;
-    margin-left: 10px;
     font-size: 17px;
 }
 
-#confirmar:hover {
+.botoes:hover {
     color: aqua;
     transition: 0.3s;
 }
@@ -74,13 +70,11 @@ label {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
-    padding-left: 0.5vw;
-    margin-right: 10px;
     height: 23vh;
     width: 36vw;
     margin-bottom: 10px;
     padding-top: 10px;
+    padding-bottom: 10px;
     background-color: rgba(95, 158, 241, 0.607);
     border-radius: 10px;
     border-style: solid;
@@ -108,8 +102,16 @@ label {
     width: 35vw;
 }
 
-.nome {
+.nomeElevel {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 30px;
+}
+
+.palavraOU {
+    margin-left: 5px;
+    margin-top: 7px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }

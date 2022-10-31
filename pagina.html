@@ -28,6 +28,11 @@
 
     <main>
         <div class="caixa">
+            <label for="digimonAleatorio">Clique no botão abaixo e te daremos um digimon aleatorio!</label>
+            <input type="button" class="botoes" value="DigiAleatorio" id="digiAleatorio" onclick="digiAleatorio()">
+
+            <p class="palavraOU">ou</p>
+
             <label for="nivelDigimon">Escolha um nível e te daremos um digimon!</label>
             <select name="" id="nivelDigimon">
                 <option value="fresh">Bebê</option>
@@ -37,7 +42,7 @@
                 <option value="mega">Perfeito</option>
                 <option value="ultimate">Ultimate</option>
             </select>
-            <input type="button" value="Confirmar" id="confirmar" onclick="confirmar()">
+            <input type="button" class="botoes" value="Confirmar" id="confirmar" onclick="digiAleatorioPorClasse()">
         </div>
         <div id="resultado">
 
