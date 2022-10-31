@@ -19,8 +19,6 @@ h1 {
     color: white;
     font-size: 3vw;
     font-family: 'Roboto Mono', monospace;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke: black;
 }
 
 .digimon {
@@ -66,6 +64,11 @@ label {
     font-size: 17px;
 }
 
+#confirmar:hover {
+    color: aqua;
+    transition: 0.3s;
+}
+
 .caixa {
     display: flex;
     flex-direction: column;
@@ -81,7 +84,7 @@ label {
     background-color: rgba(95, 158, 241, 0.607);
     border-radius: 10px;
     border-style: solid;
-    border-width: 1px;
+    border-width: 2px;
     font-family: 'Roboto', sans-serif;
 }
 
