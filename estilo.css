@@ -42,7 +42,7 @@ select {
 }
 
 label {
-    font-size: 18px;
+    font-size: 2.5vh;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
@@ -110,8 +110,7 @@ label {
 
 .palavraOU {
     margin-left: 5px;
-    margin-top: 7px;
-    font-size: 18px;
+    font-size: 2.5vh;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
